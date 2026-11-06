@@ -13,23 +13,6 @@
 
 <br>
 
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=guechanlee&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guechanlee&layout=compact&theme=radical)
-
-</div>
-
----
-
-## 💼 Experience
-
-| 기간 | 회사 | 직무 | 주요 업무 |
-| --- | --- | --- | --- |
-| 2025.02 ~ 2025.08 (7개월) | 테이스트브로 | 영업관리 · 슈퍼바이저 | 직영점 매출관리, 발주관리, 코스트관리, 메뉴 개발, 상권 분석 |
-| 2023.10 ~ 2025.01 (1년 4개월) | 금별맥주 강남삼성타운 | 매장관리자 (매니저) | 직원관리, 발주관리, 코스트관리, 정산관리 |
-| 2023.01 ~ 2023.09 (9개월) | 동경야시장 | 매장관리자 | 발주관리, 정산관리 |
-
 ---
 
 ## 🛠 Tech Stack
