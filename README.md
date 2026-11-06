@@ -33,19 +33,10 @@
 | 기간 · 팀 | 2026.10.06 ~ 11.23 (7주) · 6명 |
 | 내 역할 | **구역·캠 관리 · 실시간 화면·다시보기 · 대시보드 지도** (Spring 관리자 앱) |
 | 기술 스택 | Java 17 · Spring Boot · JPA · MySQL 8 · Thymeleaf · Leaflet · Python Flask · YOLOv8m · Docker · nginx |
-| 저장소 | [white-eyes1](https://github.com/white-eyes1) (spring · flask · docs · deploy · assets) |
-
-<img src="images/white-eyes-background.png" width="49%"> <img src="images/white-eyes-goals.png" width="49%">
 
 #### 흐름
 
 드론·CCTV 영상 → **사람 탐지·추적**(VisDrone YOLOv8m + PointTracker) → **구역별 밀집도**(명/㎡) → 혼잡 3단계 경보 · 시간·일·주·월 통계 · 엑셀 · 영상 다시보기
-
-<img src="images/white-eyes-scenario-admin.png" width="49%"> <img src="images/white-eyes-scenario-user.png" width="49%">
-
-#### 시스템 구성
-
-<img src="images/white-eyes-architecture.png" width="80%">
 
 #### AI 모델 성능 (사진 120장, 사람 3,263명 기준)
 
