@@ -4,7 +4,7 @@
 
 ### 현장의 문제를 듣고, 직접 만들어 보여 주는 이규찬입니다
 
-매장 운영·영업관리 2년 8개월 경력에, Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발했습니다.<br>
+Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발했습니다.<br>
 고객이 원하는 것을 이해하고, 그것을 기술로 설명하고 구현하는 일을 합니다.
 
 ✉ Email : <a href="mailto:guechanlee@gmail.com">guechanlee@gmail.com</a>
