@@ -37,6 +37,15 @@ Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발�
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=guechanlee&show_icons=true&hide_border=true&count_private=true&theme=default" />
+  <img height="170" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guechanlee&layout=compact&hide_border=true&langs_count=6" />
+</p>
+
+---
+
 ## 🎓 Education
 
 - K-디지털 트레이닝 — AIoT 기반 드론 영상 관제시스템 프로젝트 개발 (DW아카데미학원 5회차, 2026.04 ~ 2026.11, 1,120시간)
@@ -138,3 +147,15 @@ Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발�
 ## 📝 Notes
 
 배운 내용은 과목별로 정리하고, 막혔던 문제는 트러블슈팅으로 기록합니다. (Java · Python · Spring · Docker · Git · Linux · 서버 구축 등)
+
+---
+
+## 🐍 Contribution
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guechanlee/guechanlee/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guechanlee/guechanlee/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/guechanlee/guechanlee/output/github-snake.svg" />
+  </picture>
+</p>
