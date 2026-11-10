@@ -40,8 +40,8 @@ Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발�
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=guechanlee&show_icons=true&hide_border=true&count_private=true&theme=default" />
-  <img height="170" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guechanlee&layout=compact&hide_border=true&langs_count=6" />
+  <img height="170" alt="GitHub Stats" src="https://raw.githubusercontent.com/guechanlee/guechanlee/output/stats.svg" />
+  <img height="170" alt="Top Languages" src="https://raw.githubusercontent.com/guechanlee/guechanlee/output/langs.svg" />
 </p>
 
 ---
