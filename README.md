@@ -37,10 +37,9 @@ Java·Spring Boot·Python으로 영상 분석 관제 서비스를 직접 개발�
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Top Languages
 
 <p align="center">
-  <img height="170" alt="GitHub Stats" src="https://raw.githubusercontent.com/guechanlee/guechanlee/output/stats.svg" />
   <img height="170" alt="Top Languages" src="https://raw.githubusercontent.com/guechanlee/guechanlee/output/langs.svg" />
 </p>
 
