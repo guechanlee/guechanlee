@@ -37,13 +37,21 @@ try:
 except Exception:
     commits = None
 
+# Languages are ranked by how many repositories use them (not by bytes), so one
+# repo with a committed virtualenv or generated files cannot dominate the chart.
+EXCLUDE_REPOS = {x for x in os.environ.get("EXCLUDE_REPOS", "flask_ex").split(",") if x}
+IGNORE_LANGS = {"Batchfile", "PowerShell", "Shell", "XSLT", "Dockerfile", "Go Template", "C"}
 langs = {}
 for r in own:
+    if r["name"] in EXCLUDE_REPOS or r["name"] == USER:
+        continue
     try:
-        for k, v in api(f"/repos/{USER}/{r['name']}/languages").items():
-            langs[k] = langs.get(k, 0) + v
+        used = api(f"/repos/{USER}/{r['name']}/languages")
     except Exception:
-        pass
+        continue
+    for k in used:
+        if k not in IGNORE_LANGS:
+            langs[k] = langs.get(k, 0) + 1
 
 FONT = "font-family=\"'Segoe UI',Ubuntu,'Noto Sans KR',sans-serif\""
 BORDER = "#e4e2e2"
@@ -74,7 +82,7 @@ open(os.path.join(OUT, "stats.svg"), "w", encoding="utf-8").write(card(284, 170,
 total = sum(langs.values()) or 1
 top = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)[:6]
 palette = ["#2563eb", "#f59e0b", "#10b981", "#8b5cf6", "#ef4444", "#64748b"]
-body = f'<text x="24" y="34" {FONT} font-size="17" font-weight="600" fill="#2563eb">Top Languages</text>'
+body = f'<text x="24" y="34" {FONT} font-size="17" font-weight="600" fill="#2563eb">Top Languages <tspan font-size="11" font-weight="400" fill="#6b7280">(by repos)</tspan></text>'
 x, bar_w = 24, 252
 for i, (k, v) in enumerate(top):
     w = max(2, round(bar_w * v / total))
